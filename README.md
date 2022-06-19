@@ -4,8 +4,8 @@
 
 ## Запуск
 #####Инструкция по запуску:
-###### docker build -t alfabanktest .
-###### docker run -p 8000:8000 -t abtest
+###### sudo docker build -t abtest .
+###### sudo docker run -p 8000:8000 -t abtest
 
 ##### После запуска приложения переходим на http://localhost:8000 и при вводе кода валюты отображается gif из трех категорий:
 * rich
